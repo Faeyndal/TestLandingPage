@@ -134,8 +134,41 @@ img {
 }
 
 .quote-who {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0;
     text-align: end;
+    color: #1F2937;
+}
+
+.signup {
+    background-color: #3882f6;
+    margin: 80px 200px;
+    padding: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #e5e7eb;
+}
+
+.signup-left p {
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.signup-right button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 2px solid #e5e7eb;
+    padding: 5px;
+    width: 75px;
 }
